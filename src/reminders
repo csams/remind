@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+date --rfc-3339=seconds
+ps -ef | grep remind-task | grep -v "grep remind-task"

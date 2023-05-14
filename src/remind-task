@@ -1,0 +1,13 @@
+#/usr/bin/env bash
+ 
+cfg=$(autorandr --detected)
+if [ "$cfg" == "docked" ] ; then
+    monitor=1
+else
+    monitor=0
+fi
+duration=$1
+message=${@:2}
+
+sleep $duration
+xcowsay --monitor "$monitor" -t 0 "$message"
