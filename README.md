@@ -1,6 +1,7 @@
 # What is this?
 
-Create simple reminders from the CLI.
+Create simple reminders from the CLI. It's specific to my system, so adjust the `autorandr` stuff in
+`src/remind-task` if you want to use it.
 
 ## Examples
 
