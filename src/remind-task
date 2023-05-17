@@ -10,4 +10,4 @@ duration=$1
 message=${@:2}
 
 sleep $duration
-xcowsay --monitor "$monitor" -t 0 "$message"
+xcowsay --cow-size large --monitor "$monitor" -t 0 "$message"
